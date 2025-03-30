@@ -1,0 +1,21 @@
+[0.090s] Invoking command in '/home/olympusforge/ros2_frost/build/beluga': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/beluga/beluga -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/beluga
+[0.583s] -- Configuring incomplete, errors occurred!
+[0.585s] See also "/home/olympusforge/ros2_frost/build/beluga/CMakeFiles/CMakeOutput.log".
+[0.586s] [31mCMake Error at CMakeLists.txt:47 (find_package):
+[0.586s]   By not providing "Findrange-v3.cmake" in CMAKE_MODULE_PATH this project has
+[0.588s]   asked CMake to find a package configuration file provided by "range-v3",
+[0.588s]   but CMake did not find one.
+[0.588s] 
+[0.588s]   Could not find a package configuration file provided by "range-v3" with any
+[0.588s]   of the following names:
+[0.588s] 
+[0.588s]     range-v3Config.cmake
+[0.588s]     range-v3-config.cmake
+[0.589s] 
+[0.589s]   Add the installation prefix of "range-v3" to CMAKE_PREFIX_PATH or set
+[0.589s]   "range-v3_DIR" to a directory containing one of the above files.  If
+[0.589s]   "range-v3" provides a separate development package or SDK, be sure it has
+[0.589s]   been installed.
+[0.589s] 
+[0.589s] [0m
+[0.628s] Invoked command in '/home/olympusforge/ros2_frost/build/beluga' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/beluga/beluga -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/beluga

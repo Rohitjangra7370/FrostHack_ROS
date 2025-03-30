@@ -1,0 +1,19 @@
+[2.934s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_control': PYTHONPATH=/home/olympusforge/ros2_frost/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/olympusforge/ros2_frost/build/tortoisebot_control/build --no-deps symlink_data --force
+[4.106s] running develop
+[4.727s] running egg_info
+[4.727s] writing tortoisebot_control.egg-info/PKG-INFO
+[4.737s] writing dependency_links to tortoisebot_control.egg-info/dependency_links.txt
+[4.738s] writing entry points to tortoisebot_control.egg-info/entry_points.txt
+[4.738s] writing requirements to tortoisebot_control.egg-info/requires.txt
+[4.738s] writing top-level names to tortoisebot_control.egg-info/top_level.txt
+[4.738s] reading manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[4.739s] writing manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[4.743s] running build_ext
+[4.743s] Creating /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot-control.egg-link (link to .)
+[4.743s] Installing teleop_twist_keyboard script to /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/tortoisebot_control
+[4.743s] 
+[4.743s] Installed /home/olympusforge/ros2_frost/build/tortoisebot_control
+[4.743s] running symlink_data
+[4.743s] symbolically linking /home/olympusforge/ros2_frost/build/tortoisebot_control/resource/tortoisebot_control -> /home/olympusforge/ros2_frost/install/tortoisebot_control/share/ament_index/resource_index/packages
+[4.743s] symbolically linking /home/olympusforge/ros2_frost/build/tortoisebot_control/package.xml -> /home/olympusforge/ros2_frost/install/tortoisebot_control/share/tortoisebot_control
+[4.781s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_control' returned '0': PYTHONPATH=/home/olympusforge/ros2_frost/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/olympusforge/ros2_frost/build/tortoisebot_control/build --no-deps symlink_data --force

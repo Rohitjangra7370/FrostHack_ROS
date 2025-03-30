@@ -1,0 +1,51 @@
+[0.051s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/tortoisebot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/tortoisebot_bringup
+[0.262s] -- The C compiler identification is GNU 11.4.0
+[0.262s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.262s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.367s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.367s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.530s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.629s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.686s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.788s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.792s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.792s] -- Added test 'lint_cmake' to check CMake code style
+[0.792s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.793s] -- Added test 'xmllint' to check XML markup files
+[0.794s] -- Configuring done
+[0.813s] -- Generating done
+[0.813s] -- Build files have been written to: /home/olympusforge/ros2_frost/build/tortoisebot_bringup
+[0.823s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/tortoisebot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/tortoisebot_bringup
+[0.823s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_bringup -- -j8 -l8
+[1.114s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_bringup -- -j8 -l8
+[1.131s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_bringup
+[1.155s] -- Install configuration: ""
+[1.155s] -- Execute custom install script
+[1.155s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/launch/autobringup.launch.py
+[1.155s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/launch/bringup.launch.py
+[1.157s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/maps/room2.pgm
+[1.170s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/maps/room2.yaml
+[1.191s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/ament_index/resource_index/package_run_dependencies/tortoisebot_bringup
+[1.213s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/ament_index/resource_index/parent_prefix_path/tortoisebot_bringup
+[1.222s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/ament_prefix_path.sh
+[1.230s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/ament_prefix_path.dsv
+[1.241s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/path.sh
+[1.270s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/path.dsv
+[1.280s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.bash
+[1.291s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.sh
+[1.303s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.zsh
+[1.310s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.dsv
+[1.320s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/package.dsv
+[1.331s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/ament_index/resource_index/packages/tortoisebot_bringup
+[1.337s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/cmake/tortoisebot_bringupConfig.cmake
+[1.355s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/cmake/tortoisebot_bringupConfig-version.cmake
+[1.367s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/package.xml
+[1.392s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_bringup

@@ -1,0 +1,61 @@
+[0.258s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/tortoisebot_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/tortoisebot_firmware
+[0.290s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.421s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.427s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.453s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.568s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.806s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.806s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.035s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.036s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.036s] -- Added test 'lint_cmake' to check CMake code style
+[1.036s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.036s] -- Added test 'xmllint' to check XML markup files
+[1.036s] -- Configuring done
+[1.056s] -- Generating done
+[1.078s] -- Build files have been written to: /home/olympusforge/ros2_frost/build/tortoisebot_firmware
+[1.121s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/tortoisebot_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/tortoisebot_firmware
+[1.121s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_firmware -- -j8 -l8
+[1.230s] Built target ament_cmake_python_symlink_tortoisebot_firmware
+[1.448s] running egg_info
+[1.448s] writing tortoisebot_firmware.egg-info/PKG-INFO
+[1.449s] writing dependency_links to tortoisebot_firmware.egg-info/dependency_links.txt
+[1.451s] writing top-level names to tortoisebot_firmware.egg-info/top_level.txt
+[1.451s] reading manifest file 'tortoisebot_firmware.egg-info/SOURCES.txt'
+[1.452s] writing manifest file 'tortoisebot_firmware.egg-info/SOURCES.txt'
+[1.482s] Built target ament_cmake_python_build_tortoisebot_firmware_egg
+[1.493s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_firmware -- -j8 -l8
+[1.501s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_firmware
+[1.520s] -- Install configuration: ""
+[1.520s] -- Execute custom install script
+[1.520s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/pythonpath.sh
+[1.520s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/pythonpath.dsv
+[1.521s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[1.521s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware/__init__.py
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/lib/tortoisebot_firmware/differential.py
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/ament_index/resource_index/package_run_dependencies/tortoisebot_firmware
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/ament_index/resource_index/parent_prefix_path/tortoisebot_firmware
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/ament_prefix_path.sh
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/ament_prefix_path.dsv
+[1.522s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/path.sh
+[1.523s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/path.dsv
+[1.523s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.bash
+[1.523s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.sh
+[1.523s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.zsh
+[1.523s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.dsv
+[1.523s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/package.dsv
+[1.534s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/ament_index/resource_index/packages/tortoisebot_firmware
+[1.534s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/cmake/tortoisebot_firmwareConfig.cmake
+[1.534s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/cmake/tortoisebot_firmwareConfig-version.cmake
+[1.534s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_firmware/share/tortoisebot_firmware/package.xml
+[1.570s] Listing '/home/olympusforge/ros2_frost/install/tortoisebot_firmware/local/lib/python3.10/dist-packages/tortoisebot_firmware'...
+[1.577s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_firmware

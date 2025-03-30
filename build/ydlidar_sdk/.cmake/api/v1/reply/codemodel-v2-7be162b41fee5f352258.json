@@ -1,0 +1,372 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						9,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fe3ea3a3803c8ef6f54a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "core",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-core-eac7e466be7743a8be0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core"
+				},
+				{
+					"build" : "core/base",
+					"jsonFile" : "directory-core.base-9e00b42a7f85ae6eaaba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/base"
+				},
+				{
+					"build" : "core/common",
+					"jsonFile" : "directory-core.common-069a94e9f675ec65e82c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/common"
+				},
+				{
+					"build" : "core/math",
+					"jsonFile" : "directory-core.math-ba114cfd9017e68a8789.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/math"
+				},
+				{
+					"build" : "core/network",
+					"jsonFile" : "directory-core.network-28801acd3193b6de92d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/network"
+				},
+				{
+					"build" : "core/serial",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-core.serial-410e4ac18c138ba62023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/serial"
+				},
+				{
+					"build" : "core/serial/impl",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-core.serial.impl-70524e63f79595955523.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "core/serial/impl"
+				},
+				{
+					"build" : "core/serial/impl/unix",
+					"jsonFile" : "directory-core.serial.impl.unix-e39c2d734015aaabaec5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "core/serial/impl/unix"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						10
+					],
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/filters",
+					"jsonFile" : "directory-src.filters-eb2e78a972387c654be0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "src/filters"
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-cd49f7a17d774c043c0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "ydlidar_sdk",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "ydlidar_test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "et_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-et_test-7e20a1eff8e0d7bf6570.json",
+					"name" : "et_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gs_ota::@714eac15f71a94114fdf",
+					"jsonFile" : "target-gs_ota-e87c1df8827b6fa33775.json",
+					"name" : "gs_ota",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gs_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-gs_test-964e8a3135c456148905.json",
+					"name" : "gs_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gs_test2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-gs_test2-f92b46d61a4837bd2e1d.json",
+					"name" : "gs_test2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "lidar_c_api_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-lidar_c_api_test-a01928d8e6fdfb3d790a.json",
+					"name" : "lidar_c_api_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "scl_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-scl_test-7ee03c41b69d191c0303.json",
+					"name" : "scl_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "sdm18_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sdm18_test-6c06cfac295b8a0783ab.json",
+					"name" : "sdm18_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "sdm_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sdm_test-296e43f4979e37fc6454.json",
+					"name" : "sdm_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tea_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tea_test-795d724660282b0b666a.json",
+					"name" : "tea_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tmini_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tmini_test-e0305fe70ff080c14588.json",
+					"name" : "tmini_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tof_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tof_test-c9c3952aadc3cbe1f576.json",
+					"name" : "tof_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tri_and_gs_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tri_and_gs_test-f43e10a83a2bb43b65fc.json",
+					"name" : "tri_and_gs_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tri_restart::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tri_restart-93400473c8d56c72aaf9.json",
+					"name" : "tri_restart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tri_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tri_test-a791f069f6d4a450cfac.json",
+					"name" : "tri_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e15603c167b9f24bc24f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_sdk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_sdk-fe7cc5a43a98da571ea8.json",
+					"name" : "ydlidar_sdk",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/olympusforge/ros2_frost/build/ydlidar_sdk",
+		"source" : "/home/olympusforge/ros2_frost/src/tortoisebot/YDLidar-SDK"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

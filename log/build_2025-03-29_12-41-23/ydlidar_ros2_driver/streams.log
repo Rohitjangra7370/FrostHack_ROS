@@ -1,0 +1,55 @@
+[0.057s] Invoking command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver
+[0.147s] -- The C compiler identification is GNU 11.4.0
+[0.218s] -- The CXX compiler identification is GNU 11.4.0
+[0.223s] -- Detecting C compiler ABI info
+[0.382s] -- Detecting C compiler ABI info - done
+[0.401s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.401s] -- Detecting C compile features
+[0.401s] -- Detecting C compile features - done
+[0.401s] -- Detecting CXX compiler ABI info
+[0.582s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.588s] -- Detecting CXX compile features
+[0.589s] -- Detecting CXX compile features - done
+[0.590s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.724s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.789s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.811s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.836s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.840s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.845s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.857s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.888s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.891s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.006s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.031s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.076s] -- Looking for pthread.h
+[1.342s] -- Looking for pthread.h - found
+[1.342s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.807s] -- Found Threads: TRUE  
+[2.086s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.286s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.295s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.296s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[2.296s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[2.297s]   has asked CMake to find a package configuration file provided by
+[2.297s]   "ydlidar_sdk", but CMake did not find one.
+[2.297s] 
+[2.297s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[2.297s]   any of the following names:
+[2.297s] 
+[2.298s]     ydlidar_sdkConfig.cmake
+[2.298s]     ydlidar_sdk-config.cmake
+[2.298s] 
+[2.299s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[2.300s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[2.300s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[2.300s]   has been installed.
+[2.301s] 
+[2.301s] [0m
+[2.301s] -- Configuring incomplete, errors occurred!
+[2.337s] See also "/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[2.366s] Invoked command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver

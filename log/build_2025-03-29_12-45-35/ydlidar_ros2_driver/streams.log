@@ -1,0 +1,93 @@
+[0.064s] Invoking command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver
+[0.071s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.373s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.402s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.402s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.407s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.451s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.451s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.557s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.577s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.592s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.603s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.667s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.668s] -- Configured cppcheck include dirs: /home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src
+[0.668s] -- Configured cppcheck exclude dirs and/or files: 
+[0.672s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.672s] -- Configured cpplint exclude dirs and/or files: 
+[0.672s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.672s] -- Added test 'lint_cmake' to check CMake code style
+[0.672s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.675s] -- Added test 'uncrustify' to check C / C++ code style
+[0.676s] -- Configured uncrustify additional arguments: 
+[0.676s] -- Added test 'xmllint' to check XML markup files
+[0.676s] -- Configuring done
+[0.687s] -- Generating done
+[0.691s] -- Build files have been written to: /home/olympusforge/ros2_frost/build/ydlidar_ros2_driver
+[0.699s] Invoked command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver
+[0.701s] Invoking command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/ydlidar_ros2_driver -- -j8 -l8
+[0.751s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[0.751s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[2.394s] [01m[K/home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[2.394s] [01m[K/home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:163:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.394s]   163 | ser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[2.394s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.394s] 
+[2.394s] [01m[K/home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:164:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.394s]   164 | [01;35m[Konst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[2.395s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.395s] 
+[2.395s] [01m[K/home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:165:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.395s]   165 | [01;35m[K::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[2.395s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.395s] 
+[2.407s] [01m[K/home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[2.407s] [01m[K/home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:173:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.407s]   173 | ser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[2.407s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.408s] 
+[2.408s] [01m[K/home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:174:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.408s]   174 | [01;35m[Konst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[2.408s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.408s] 
+[2.408s] [01m[K/home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:175:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.408s]   175 | [01;35m[K::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[2.408s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.408s] 
+[4.120s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[4.360s] [ 75%] Built target ydlidar_ros2_driver_node
+[6.276s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[6.546s] [100%] Built target ydlidar_ros2_driver_client
+[6.557s] Invoked command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/ydlidar_ros2_driver -- -j8 -l8
+[6.561s] Invoking command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/ydlidar_ros2_driver
+[6.566s] -- Install configuration: ""
+[6.567s] -- Execute custom install script
+[6.567s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[6.573s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[6.582s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[6.587s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[6.598s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[6.605s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[6.612s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[6.619s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[6.625s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[6.632s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[6.639s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[6.646s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[6.653s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[6.660s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[6.667s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[6.674s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[6.681s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[6.689s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[6.697s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[6.704s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[6.711s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[6.718s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[6.724s] -- Symlinking: /home/olympusforge/ros2_frost/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[6.733s] Invoked command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/ydlidar_ros2_driver

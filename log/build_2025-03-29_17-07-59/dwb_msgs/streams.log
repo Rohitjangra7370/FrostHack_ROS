@@ -1,0 +1,488 @@
+[0.014s] Invoking command in '/home/olympusforge/ros2_frost/build/dwb_msgs': AMENT_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:/home/olympusforge/ros2_frost/install/ydlidar_sdk:/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/olympusforge/ros2_frost/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/dwb_msgs
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.236s] -- Detecting C compiler ABI info - done
+[0.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.243s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.349s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.350s] -- Detecting CXX compile features - done
+[0.352s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.508s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.633s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.638s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.644s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.700s] -- Found nav_2d_msgs: 1.3.1 (/home/olympusforge/ros2_frost/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[0.715s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.729s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.028s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.554s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.554s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.578s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.578s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.578s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.578s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.597s] -- Found PythonExtra: .so  
+[1.659s] -- Configuring done
+[1.713s] -- Generating done
+[1.725s] -- Build files have been written to: /home/olympusforge/ros2_frost/build/dwb_msgs
+[1.735s] Invoked command in '/home/olympusforge/ros2_frost/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:/home/olympusforge/ros2_frost/install/ydlidar_sdk:/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/olympusforge/ros2_frost/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/dwb_msgs
+[1.736s] Invoking command in '/home/olympusforge/ros2_frost/build/dwb_msgs': AMENT_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:/home/olympusforge/ros2_frost/install/ydlidar_sdk:/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/dwb_msgs -- -j8 -l8
+[1.783s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.801s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.821s] [  2%] Built target ament_cmake_python_copy_dwb_msgs
+[2.024s] running egg_info
+[2.024s] creating dwb_msgs.egg-info
+[2.025s] writing dwb_msgs.egg-info/PKG-INFO
+[2.025s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[2.025s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[2.025s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[2.025s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[2.025s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[2.059s] [  2%] Built target ament_cmake_python_build_dwb_msgs_egg
+[2.602s] [  2%] Built target dwb_msgs__cpp
+[2.620s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.621s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.621s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.678s] [  6%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[2.678s] [  9%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[2.680s] [ 10%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[2.680s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[2.682s] [  8%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[2.773s] [ 11%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[2.795s] [ 12%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[2.810s] [ 13%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[2.855s] [ 14%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[2.952s] [ 15%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[3.106s] [ 15%] Built target dwb_msgs__rosidl_generator_c
+[3.133s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.150s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.161s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.529s] [ 20%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[3.552s] [ 21%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[3.575s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[3.682s] [ 23%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[3.995s] [ 24%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[4.078s] [ 25%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[4.143s] [ 26%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[4.263s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[4.345s] [ 28%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[4.357s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[4.399s] [ 30%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[4.553s] [ 31%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[4.556s] [ 32%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[4.556s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[4.688s] [ 34%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[4.735s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[4.832s] [ 36%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[4.919s] [ 37%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[4.976s] [ 38%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[5.008s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[5.050s] [ 41%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[5.068s] [ 42%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[5.094s] [ 43%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[5.164s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[5.190s] [ 45%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[5.277s] [ 46%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[5.281s] [ 47%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[5.332s] [ 48%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[5.347s] [ 49%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[5.377s] [ 50%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[5.415s] [ 51%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[5.466s] [ 52%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[5.489s] [ 53%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[5.518s] [ 54%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[5.664s] [ 54%] Built target dwb_msgs__rosidl_typesupport_c
+[5.665s] [ 54%] Built target dwb_msgs__rosidl_typesupport_cpp
+[5.672s] [ 55%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[5.767s] [ 56%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[5.767s] [ 57%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[5.791s] [ 58%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[5.900s] [ 60%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[6.022s] [ 61%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.048s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[6.216s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[6.521s] [ 63%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[6.521s] [ 64%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[6.521s] [ 65%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[6.604s] [ 66%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[6.671s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[6.671s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[6.813s] [ 69%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[6.814s] [ 70%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[7.226s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[7.230s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[7.243s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[7.245s] [ 74%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[7.532s] [ 75%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[7.533s] [ 76%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[7.555s] [ 77%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[7.562s] [ 78%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[7.791s] [ 80%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.898s] [ 81%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[7.899s] [ 81%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.979s] [ 82%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.991s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[8.069s] [ 82%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[8.091s] [ 82%] Built target dwb_msgs
+[8.116s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.111s] [ 83%] Built target dwb_msgs__py
+[9.134s] [ 84%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[9.134s] [ 85%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[9.149s] [ 86%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[9.150s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[9.150s] [ 88%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[9.150s] [ 89%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[9.150s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[9.151s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[9.284s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[9.414s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/libdwb_msgs__rosidl_generator_py.so[0m
+[9.482s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[9.520s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.544s] [ 95%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.551s] [ 96%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.691s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.692s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.780s] [ 98%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[9.786s] [ 98%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.792s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.914s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[9.992s] Invoked command in '/home/olympusforge/ros2_frost/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:/home/olympusforge/ros2_frost/install/ydlidar_sdk:/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/dwb_msgs -- -j8 -l8
+[10.017s] Invoking command in '/home/olympusforge/ros2_frost/build/dwb_msgs': AMENT_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:/home/olympusforge/ros2_frost/install/ydlidar_sdk:/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/dwb_msgs
+[10.024s] -- Install configuration: ""
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.c
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[10.024s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.c
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[10.025s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.c
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.c
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.c
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[10.034s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[10.034s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[10.035s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[10.035s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[10.035s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.035s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[10.035s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[10.035s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.035s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[10.035s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[10.035s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[10.035s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[10.036s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[10.036s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[10.036s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[10.037s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[10.037s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.037s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/dds_fastrtps
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[10.037s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/dds_fastrtps
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.037s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.037s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[10.037s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[10.037s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[10.037s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.038s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[10.038s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[10.038s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[10.038s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[10.038s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[10.038s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[10.038s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[10.038s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[10.038s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[10.039s] -- Up-to-date: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[10.039s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[10.039s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.3.1-py3.10.egg-info
+[10.039s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.3.1-py3.10.egg-info/dependency_links.txt
+[10.044s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.3.1-py3.10.egg-info/PKG-INFO
+[10.044s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.3.1-py3.10.egg-info/top_level.txt
+[10.045s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.3.1-py3.10.egg-info/SOURCES.txt
+[10.053s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs
+[10.053s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg
+[10.054s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py
+[10.054s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score_s.c
+[10.054s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[10.054s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[10.054s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py
+[10.054s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score_s.c
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/libdwb_msgs__rosidl_generator_py.so
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.056s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.057s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv
+[10.057s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[10.057s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py
+[10.057s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score_s.c
+[10.058s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory_s.c
+[10.059s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py
+[10.059s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py
+[10.059s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py
+[10.059s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py
+[10.059s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py
+[10.059s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists_s.c
+[10.059s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[10.059s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.060s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.117s] Listing '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs'...
+[10.131s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py'...
+[10.131s] Listing '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg'...
+[10.131s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py'...
+[10.131s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py'...
+[10.132s] Listing '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py'...
+[10.132s] Compiling '/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py'...
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.132s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.132s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.132s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[10.132s] -- Set runtime path of "/home/olympusforge/ros2_frost/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[10.132s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/package.dsv
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.133s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[10.134s] -- Installing: /home/olympusforge/ros2_frost/install/dwb_msgs/share/dwb_msgs/package.xml
+[10.157s] Invoked command in '/home/olympusforge/ros2_frost/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs:/home/olympusforge/ros2_frost/install/ydlidar_sdk:/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/olympusforge/ros2_frost/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/dwb_msgs

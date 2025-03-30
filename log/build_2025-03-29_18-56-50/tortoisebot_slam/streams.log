@@ -1,0 +1,24 @@
+[0.332s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/home/olympusforge/ros2_frost/install/nav2_loopback_sim:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_slam -- -j8 -l8
+[0.632s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/home/olympusforge/ros2_frost/install/nav2_loopback_sim:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_slam -- -j8 -l8
+[0.663s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/home/olympusforge/ros2_frost/install/nav2_loopback_sim:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_slam
+[1.377s] -- Install configuration: ""
+[1.456s] -- Execute custom install script
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/launch/cartographer.launch.py
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/config/ekf.yaml
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/config/slam.lua
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.sh
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.dsv
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/environment/path.sh
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/environment/path.dsv
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.bash
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.sh
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.zsh
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.dsv
+[1.456s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/package.dsv
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/ament_index/resource_index/packages/tortoisebot_slam
+[1.456s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/cmake/tortoisebot_slamConfig.cmake
+[1.482s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/cmake/tortoisebot_slamConfig-version.cmake
+[1.482s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_slam/share/tortoisebot_slam/package.xml
+[1.492s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/home/olympusforge/ros2_frost/install/nav2_loopback_sim:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_slam

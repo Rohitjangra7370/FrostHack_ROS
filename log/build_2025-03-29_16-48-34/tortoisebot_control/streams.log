@@ -1,0 +1,17 @@
+[1.631s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_control': PYTHONPATH=/home/olympusforge/ros2_frost/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/olympusforge/ros2_frost/build/tortoisebot_control/build --no-deps symlink_data
+[1.995s] running develop
+[2.128s] running egg_info
+[2.129s] writing tortoisebot_control.egg-info/PKG-INFO
+[2.129s] writing dependency_links to tortoisebot_control.egg-info/dependency_links.txt
+[2.129s] writing entry points to tortoisebot_control.egg-info/entry_points.txt
+[2.131s] writing requirements to tortoisebot_control.egg-info/requires.txt
+[2.131s] writing top-level names to tortoisebot_control.egg-info/top_level.txt
+[2.132s] reading manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[2.134s] writing manifest file 'tortoisebot_control.egg-info/SOURCES.txt'
+[2.136s] running build_ext
+[2.137s] Creating /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot-control.egg-link (link to .)
+[2.137s] Installing teleop_twist_keyboard script to /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/tortoisebot_control
+[2.137s] 
+[2.137s] Installed /home/olympusforge/ros2_frost/build/tortoisebot_control
+[2.137s] running symlink_data
+[2.162s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_control' returned '0': PYTHONPATH=/home/olympusforge/ros2_frost/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/olympusforge/ros2_frost/build/tortoisebot_control/build --no-deps symlink_data

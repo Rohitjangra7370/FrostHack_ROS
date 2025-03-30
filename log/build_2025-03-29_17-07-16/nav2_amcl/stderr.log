@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:57 (add_library):
+  Target "motions_lib" links to target "nav2_util::nav2_util_core" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:90 (add_library):
+  Target "amcl_core" links to target "nav2_util::nav2_util_core" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:120 (add_executable):
+  Target "amcl" links to target "nav2_util::nav2_util_core" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

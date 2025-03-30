@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000597] (-) JobUnselected: {'identifier': 'beluga_amcl'}
+[0.000650] (-) JobUnselected: {'identifier': 'beluga_benchmark'}
+[0.000693] (-) JobUnselected: {'identifier': 'beluga_example'}
+[0.000702] (-) JobUnselected: {'identifier': 'beluga_ros'}
+[0.000710] (-) JobUnselected: {'identifier': 'beluga_system_tests'}
+[0.000717] (-) JobUnselected: {'identifier': 'beluga_tools'}
+[0.000724] (-) JobUnselected: {'identifier': 'beluga_tutorial'}
+[0.000731] (-) JobUnselected: {'identifier': 'beluga_vdb'}
+[0.000737] (-) JobUnselected: {'identifier': 'tortoisebot_bringup'}
+[0.000743] (-) JobUnselected: {'identifier': 'tortoisebot_control'}
+[0.000749] (-) JobUnselected: {'identifier': 'tortoisebot_description'}
+[0.000756] (-) JobUnselected: {'identifier': 'tortoisebot_firmware'}
+[0.000833] (-) JobUnselected: {'identifier': 'tortoisebot_gazebo'}
+[0.000844] (-) JobUnselected: {'identifier': 'tortoisebot_navigation'}
+[0.000851] (-) JobUnselected: {'identifier': 'tortoisebot_slam'}
+[0.000947] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.000986] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000998] (-) JobUnselected: {'identifier': 'ydlidar_sdk'}
+[0.001008] (beluga) JobQueued: {'identifier': 'beluga', 'dependencies': OrderedDict()}
+[0.001019] (beluga) JobStarted: {'identifier': 'beluga'}
+[0.008664] (beluga) JobProgress: {'identifier': 'beluga', 'progress': 'cmake'}
+[0.010566] (beluga) Command: {'cmd': ['/usr/bin/cmake', '/home/olympusforge/ros2_frost/src/beluga/beluga', '-DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/beluga'], 'cwd': '/home/olympusforge/ros2_frost/build/beluga', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'olympusforge'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/olympusforge/ros2_frost/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/olympusforge'), ('OLDPWD', '/home/olympusforge/ros2_frost/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1101'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/olympusforge/ros2_frost/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'olympusforge'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'olympusforge'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/olympusforge/ros2_frost/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OympusForge:@/tmp/.ICE-unix/1064,unix/OympusForge:/tmp/.ICE-unix/1064'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5119052b_68e3_42d7_9247_942e25d980d9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ydlidar_sdk_DIR', '/usr/local/lib/cmake/ydlidar_sdk'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARQG42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_control:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olympusforge/ros2_frost/build/beluga'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/olympusforge/ros2_frost/install/tortoisebot_firmware/local/lib/python3.10/dist-packages:/home/olympusforge/ros2_frost/build/tortoisebot_control:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/olympusforge/ros2_frost/install/ydlidar_sdk:/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble')]), 'shell': False}
+[0.079223] (beluga) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099659] (-) TimerEvent: {}
+[0.145365] (beluga) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.152514] (beluga) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200314] (-) TimerEvent: {}
+[0.223487] (beluga) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.228912] (beluga) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.236589] (beluga) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.236627] (beluga) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.248356] (beluga) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300908] (-) TimerEvent: {}
+[0.367732] (beluga) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.373091] (beluga) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.373258] (beluga) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.373477] (beluga) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.374262] (beluga) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.401081] (-) TimerEvent: {}
+[0.501726] (-) TimerEvent: {}
+[0.606489] (-) TimerEvent: {}
+[0.710317] (-) TimerEvent: {}
+[0.821249] (-) TimerEvent: {}
+[0.922263] (-) TimerEvent: {}
+[0.929727] (beluga) StdoutLine: {'line': b'-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: CXX \n'}
+[0.936975] (beluga) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:47 (find_package):\n'}
+[0.937084] (beluga) StderrLine: {'line': b'  By not providing "Findrange-v3.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.937133] (beluga) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "range-v3",\n'}
+[0.937159] (beluga) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[0.937208] (beluga) StderrLine: {'line': b'\n'}
+[0.937232] (beluga) StderrLine: {'line': b'  Could not find a package configuration file provided by "range-v3" with any\n'}
+[0.937261] (beluga) StderrLine: {'line': b'  of the following names:\n'}
+[0.937283] (beluga) StderrLine: {'line': b'\n'}
+[0.937306] (beluga) StderrLine: {'line': b'    range-v3Config.cmake\n'}
+[0.937331] (beluga) StderrLine: {'line': b'    range-v3-config.cmake\n'}
+[0.937355] (beluga) StderrLine: {'line': b'\n'}
+[0.937378] (beluga) StderrLine: {'line': b'  Add the installation prefix of "range-v3" to CMAKE_PREFIX_PATH or set\n'}
+[0.937400] (beluga) StderrLine: {'line': b'  "range-v3_DIR" to a directory containing one of the above files.  If\n'}
+[0.937422] (beluga) StderrLine: {'line': b'  "range-v3" provides a separate development package or SDK, be sure it has\n'}
+[0.937445] (beluga) StderrLine: {'line': b'  been installed.\n'}
+[0.937468] (beluga) StderrLine: {'line': b'\n'}
+[0.937545] (beluga) StderrLine: {'line': b'\x1b[0m\n'}
+[0.937816] (beluga) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.937870] (beluga) StdoutLine: {'line': b'See also "/home/olympusforge/ros2_frost/build/beluga/CMakeFiles/CMakeOutput.log".\n'}
+[0.942353] (beluga) CommandEnded: {'returncode': 1}
+[0.973873] (beluga) JobEnded: {'identifier': 'beluga', 'rc': 1}
+[0.985485] (-) EventReactorShutdown: {}

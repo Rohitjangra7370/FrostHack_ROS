@@ -1,0 +1,31 @@
+[1.067s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_control': PYTHONPATH=/home/olympusforge/ros2_frost/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/olympusforge/ros2_frost/build/tortoisebot_control/build
+[1.587s] running develop
+[1.865s] Removing /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot-control.egg-link (link to .)
+[1.929s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_control' returned '0': PYTHONPATH=/home/olympusforge/ros2_frost/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/olympusforge/ros2_frost/build/tortoisebot_control/build
+[1.940s] Invoking command in '/home/olympusforge/ros2_frost/src/tortoisebot/tortoisebot_control': PYTHONPATH=/home/olympusforge/ros2_frost/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tortoisebot_control build --build-base /home/olympusforge/ros2_frost/build/tortoisebot_control/build install --record /home/olympusforge/ros2_frost/build/tortoisebot_control/install.log --single-version-externally-managed install_data --force
+[2.234s] running egg_info
+[2.235s] writing ../../../build/tortoisebot_control/tortoisebot_control.egg-info/PKG-INFO
+[2.239s] writing dependency_links to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/dependency_links.txt
+[2.239s] writing entry points to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/entry_points.txt
+[2.239s] writing requirements to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/requires.txt
+[2.239s] writing top-level names to ../../../build/tortoisebot_control/tortoisebot_control.egg-info/top_level.txt
+[2.244s] reading manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[2.246s] writing manifest file '../../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[2.246s] running build
+[2.246s] running build_py
+[2.246s] running install
+[2.246s] running install_lib
+[2.246s] creating /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[2.246s] copying /home/olympusforge/ros2_frost/build/tortoisebot_control/build/lib/tortoisebot_control/teleop_twist_keyboard.py -> /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[2.246s] copying /home/olympusforge/ros2_frost/build/tortoisebot_control/build/lib/tortoisebot_control/__init__.py -> /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control
+[2.246s] byte-compiling /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[2.247s] byte-compiling /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control/__init__.py to __init__.cpython-310.pyc
+[2.248s] running install_data
+[2.248s] copying resource/tortoisebot_control -> /home/olympusforge/ros2_frost/install/tortoisebot_control/share/ament_index/resource_index/packages
+[2.248s] copying package.xml -> /home/olympusforge/ros2_frost/install/tortoisebot_control/share/tortoisebot_control
+[2.248s] running install_egg_info
+[2.261s] Copying ../../../build/tortoisebot_control/tortoisebot_control.egg-info to /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control-0.0.0-py3.10.egg-info
+[2.261s] running install_scripts
+[2.270s] Installing teleop_twist_keyboard script to /home/olympusforge/ros2_frost/install/tortoisebot_control/lib/tortoisebot_control
+[2.270s] writing list of installed files to '/home/olympusforge/ros2_frost/build/tortoisebot_control/install.log'
+[2.310s] Invoked command in '/home/olympusforge/ros2_frost/src/tortoisebot/tortoisebot_control' returned '0': PYTHONPATH=/home/olympusforge/ros2_frost/build/tortoisebot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tortoisebot_control build --build-base /home/olympusforge/ros2_frost/build/tortoisebot_control/build install --record /home/olympusforge/ros2_frost/build/tortoisebot_control/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,25 @@
+[0.065s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_bringup -- -j8 -l8
+[0.280s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_bringup -- -j8 -l8
+[0.292s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_bringup
+[0.302s] -- Install configuration: ""
+[0.305s] -- Execute custom install script
+[0.305s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/launch/autobringup.launch.py
+[0.314s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/launch/bringup.launch.py
+[0.314s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/maps/room2.pgm
+[0.315s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/maps/room2.yaml
+[0.315s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/ament_index/resource_index/package_run_dependencies/tortoisebot_bringup
+[0.315s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/ament_index/resource_index/parent_prefix_path/tortoisebot_bringup
+[0.315s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/ament_prefix_path.sh
+[0.319s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/ament_prefix_path.dsv
+[0.319s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/path.sh
+[0.325s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/environment/path.dsv
+[0.325s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.bash
+[0.326s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.sh
+[0.326s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.zsh
+[0.326s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/local_setup.dsv
+[0.326s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/package.dsv
+[0.327s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/ament_index/resource_index/packages/tortoisebot_bringup
+[0.327s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/cmake/tortoisebot_bringupConfig.cmake
+[0.328s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/cmake/tortoisebot_bringupConfig-version.cmake
+[0.328s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_bringup/share/tortoisebot_bringup/package.xml
+[0.365s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_bringup

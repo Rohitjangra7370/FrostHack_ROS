@@ -1,0 +1,35 @@
+[0.100s] Invoking command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver
+[0.119s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.353s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.401s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.471s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.478s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.596s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.596s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.699s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.726s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.739s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.752s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[0.752s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[0.752s]   has asked CMake to find a package configuration file provided by
+[0.752s]   "ydlidar_sdk", but CMake did not find one.
+[0.752s] 
+[0.752s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[0.752s]   any of the following names:
+[0.752s] 
+[0.752s]     ydlidar_sdkConfig.cmake
+[0.752s]     ydlidar_sdk-config.cmake
+[0.752s] 
+[0.752s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[0.752s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[0.752s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[0.752s]   has been installed.
+[0.752s] 
+[0.752s] [0m
+[0.752s] -- Configuring incomplete, errors occurred!
+[0.752s] See also "/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[0.768s] Invoked command in '/home/olympusforge/ros2_frost/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver

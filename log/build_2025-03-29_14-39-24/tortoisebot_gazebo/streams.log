@@ -1,0 +1,39 @@
+[0.394s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/tortoisebot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/tortoisebot_gazebo
+[0.482s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.828s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.879s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.261s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.286s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.287s] -- Added test 'lint_cmake' to check CMake code style
+[1.287s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.305s] -- Added test 'xmllint' to check XML markup files
+[1.354s] -- Configuring done
+[1.514s] -- Generating done
+[1.552s] -- Build files have been written to: /home/olympusforge/ros2_frost/build/tortoisebot_gazebo
+[1.727s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/tortoisebot/tortoisebot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/tortoisebot_gazebo
+[1.727s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_gazebo -- -j8 -l8
+[2.020s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_gazebo -- -j8 -l8
+[2.021s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_gazebo
+[2.143s] -- Install configuration: ""
+[2.143s] -- Execute custom install script
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_materials.gazebo
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_physics.gazebo
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_plugins.gazebo
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch/gazebo.launch.py
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/room2.sdf
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/ament_index/resource_index/package_run_dependencies/tortoisebot_gazebo
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/ament_index/resource_index/parent_prefix_path/tortoisebot_gazebo
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.sh
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.dsv
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.sh
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.dsv
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.bash
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.sh
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.zsh
+[2.144s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.dsv
+[2.144s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv
+[2.185s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/ament_index/resource_index/packages/tortoisebot_gazebo
+[2.185s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig.cmake
+[2.185s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig-version.cmake
+[2.185s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.xml
+[2.275s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_gazebo

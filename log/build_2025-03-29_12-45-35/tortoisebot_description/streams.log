@@ -1,0 +1,38 @@
+[0.228s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_description -- -j8 -l8
+[0.285s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/olympusforge/ros2_frost/build/tortoisebot_description -- -j8 -l8
+[0.291s] Invoking command in '/home/olympusforge/ros2_frost/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_description
+[0.299s] -- Install configuration: ""
+[0.299s] -- Execute custom install script
+[0.300s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/launch/display.launch.py
+[0.300s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/launch/rviz.launch.py
+[0.301s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/launch/state_publisher.launch.py
+[0.301s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/base_link.stl
+[0.301s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/camera.stl
+[0.301s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/caster.stl
+[0.301s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/imu.stl
+[0.301s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_body.stl
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_bottom.stl
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_motorend.stl
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_top.stl
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_left.stl
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_right.stl
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/urdf/materials.xacro
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot.xacro
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/rviz/sensors.rviz
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/rviz/tortoisebot_navigation.rviz
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/ament_index/resource_index/package_run_dependencies/tortoisebot_description
+[0.302s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/ament_index/resource_index/parent_prefix_path/tortoisebot_description
+[0.303s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.sh
+[0.303s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.dsv
+[0.303s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/environment/path.sh
+[0.303s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/environment/path.dsv
+[0.303s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/local_setup.bash
+[0.303s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/local_setup.sh
+[0.307s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/local_setup.zsh
+[0.307s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/local_setup.dsv
+[0.307s] -- Symlinking: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/package.dsv
+[0.316s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/ament_index/resource_index/packages/tortoisebot_description
+[0.316s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig.cmake
+[0.316s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig-version.cmake
+[0.316s] -- Up-to-date symlink: /home/olympusforge/ros2_frost/install/tortoisebot_description/share/tortoisebot_description/package.xml
+[0.316s] Invoked command in '/home/olympusforge/ros2_frost/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/olympusforge/ros2_frost/build/tortoisebot_description

@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000475] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000487] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000495] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000531] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000542] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000550] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000586] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000596] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000603] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000610] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000616] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.000622] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000629] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000635] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000641] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000647] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000654] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000660] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.000695] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000704] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.000740] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.000753] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001297] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001312] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001322] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001329] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001336] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001342] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001348] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001354] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001361] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001367] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001373] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001380] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.002046] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.002125] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.002137] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.002145] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.002151] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.002158] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.002165] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.002171] (-) JobUnselected: {'identifier': 'tortoisebot_bringup'}
+[0.002177] (-) JobUnselected: {'identifier': 'tortoisebot_control'}
+[0.002183] (-) JobUnselected: {'identifier': 'tortoisebot_description'}
+[0.002189] (-) JobUnselected: {'identifier': 'tortoisebot_firmware'}
+[0.002195] (-) JobUnselected: {'identifier': 'tortoisebot_gazebo'}
+[0.002245] (-) JobUnselected: {'identifier': 'tortoisebot_navigation'}
+[0.002255] (-) JobUnselected: {'identifier': 'tortoisebot_slam'}
+[0.002262] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.002298] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.002307] (-) JobUnselected: {'identifier': 'ydlidar_sdk'}
+[0.002351] (nav2_amcl) JobQueued: {'identifier': 'nav2_amcl', 'dependencies': OrderedDict([('nav2_common', '/home/olympusforge/ros2_frost/install/nav2_common'), ('nav2_msgs', '/home/olympusforge/ros2_frost/install/nav2_msgs'), ('nav2_util', '/home/olympusforge/ros2_frost/install/nav2_util')])}
+[0.002797] (nav2_amcl) JobStarted: {'identifier': 'nav2_amcl'}
+[0.015273] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'cmake'}
+[0.015359] (nav2_amcl) Command: {'cmd': ['/usr/bin/cmake', '/home/olympusforge/ros2_frost/src/navigation2/nav2_amcl', '-DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/nav2_amcl'], 'cwd': '/home/olympusforge/ros2_frost/build/nav2_amcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'olympusforge'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/olympusforge/ros2_frost/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/olympusforge'), ('OLDPWD', '/home/olympusforge/ros2_frost/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1101'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/olympusforge/ros2_frost/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'olympusforge'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'olympusforge'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/olympusforge/ros2_frost/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OympusForge:@/tmp/.ICE-unix/1064,unix/OympusForge:/tmp/.ICE-unix/1064'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5119052b_68e3_42d7_9247_942e25d980d9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ydlidar_sdk_DIR', '/usr/local/lib/cmake/ydlidar_sdk'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ARQG42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_control:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/olympusforge/ros2_frost/build/nav2_amcl'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/olympusforge/ros2_frost/install/tortoisebot_firmware/local/lib/python3.10/dist-packages:/home/olympusforge/ros2_frost/build/tortoisebot_control:/home/olympusforge/ros2_frost/install/tortoisebot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/olympusforge/ros2_frost/install/ydlidar_sdk:/home/olympusforge/ros2_frost/install/ydlidar_ros2_driver:/home/olympusforge/ros2_frost/install/v4l2_camera:/home/olympusforge/ros2_frost/install/tortoisebot_slam:/home/olympusforge/ros2_frost/install/tortoisebot_navigation:/home/olympusforge/ros2_frost/install/tortoisebot_gazebo:/home/olympusforge/ros2_frost/install/tortoisebot_firmware:/home/olympusforge/ros2_frost/install/tortoisebot_description:/home/olympusforge/ros2_frost/install/tortoisebot_bringup:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble')]), 'shell': False}
+[0.102998] (-) TimerEvent: {}
+[0.204135] (-) TimerEvent: {}
+[0.243480] (nav2_amcl) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.305721] (-) TimerEvent: {}
+[0.406718] (-) TimerEvent: {}
+[0.451955] (nav2_amcl) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.471103] (nav2_amcl) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.507774] (-) TimerEvent: {}
+[0.566264] (nav2_amcl) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.572208] (nav2_amcl) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.573116] (nav2_amcl) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.574356] (nav2_amcl) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.578251] (nav2_amcl) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.609163] (-) TimerEvent: {}
+[0.677245] (nav2_amcl) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.682053] (nav2_amcl) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.682393] (nav2_amcl) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.682631] (nav2_amcl) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.705578] (nav2_amcl) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.709328] (-) TimerEvent: {}
+[0.810356] (-) TimerEvent: {}
+[0.839681] (nav2_amcl) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.918771] (-) TimerEvent: {}
+[0.977878] (nav2_amcl) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.020401] (-) TimerEvent: {}
+[1.051261] (nav2_amcl) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.059688] (nav2_amcl) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.075104] (nav2_amcl) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.099264] (nav2_amcl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.124815] (nav2_amcl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.124951] (-) TimerEvent: {}
+[1.185746] (nav2_amcl) StdoutLine: {'line': b'-- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[1.238833] (-) TimerEvent: {}
+[1.282176] (nav2_amcl) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.290346] (nav2_amcl) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.349675] (-) TimerEvent: {}
+[1.439856] (nav2_amcl) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.456489] (-) TimerEvent: {}
+[1.464316] (nav2_amcl) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.498162] (nav2_amcl) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.516608] (nav2_amcl) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.560179] (-) TimerEvent: {}
+[1.630891] (nav2_amcl) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.631027] (nav2_amcl) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.661585] (-) TimerEvent: {}
+[1.746453] (nav2_amcl) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.750542] (nav2_amcl) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.762638] (-) TimerEvent: {}
+[1.828236] (nav2_amcl) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.858756] (nav2_amcl) StdoutLine: {'line': b'-- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[1.862791] (-) TimerEvent: {}
+[1.863188] (nav2_amcl) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.944479] (nav2_amcl) StdoutLine: {'line': b'-- Found nav2_util: 1.1.18 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.963718] (-) TimerEvent: {}
+[2.067124] (-) TimerEvent: {}
+[2.132242] (nav2_amcl) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.134281] (nav2_amcl) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.137865] (nav2_amcl) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.167619] (-) TimerEvent: {}
+[2.221928] (nav2_amcl) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[2.239280] (nav2_amcl) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.265164] (nav2_amcl) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.267849] (-) TimerEvent: {}
+[2.284540] (nav2_amcl) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[2.286064] (nav2_amcl) StdoutLine: {'line': b'-- Looking for drand48\n'}
+[2.368109] (-) TimerEvent: {}
+[2.379041] (nav2_amcl) StdoutLine: {'line': b'-- Looking for drand48 - found\n'}
+[2.382689] (nav2_amcl) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.468339] (-) TimerEvent: {}
+[2.479482] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.480360] (nav2_amcl) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/olympusforge/ros2_frost/src/navigation2/nav2_amcl/include>\n'}
+[2.480852] (nav2_amcl) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.482369] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.485291] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.485439] (nav2_amcl) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.486643] (nav2_amcl) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.497382] (nav2_amcl) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.507946] (nav2_amcl) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:57 (add_library):\n'}
+[2.508060] (nav2_amcl) StderrLine: {'line': b'  Target "motions_lib" links to target "nav2_util::nav2_util_core" but the\n'}
+[2.508099] (nav2_amcl) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[2.508124] (nav2_amcl) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[2.508147] (nav2_amcl) StderrLine: {'line': b'\n'}
+[2.508170] (nav2_amcl) StderrLine: {'line': b'\x1b[0m\n'}
+[2.508242] (nav2_amcl) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:90 (add_library):\n'}
+[2.508273] (nav2_amcl) StderrLine: {'line': b'  Target "amcl_core" links to target "nav2_util::nav2_util_core" but the\n'}
+[2.508297] (nav2_amcl) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[2.508322] (nav2_amcl) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[2.508346] (nav2_amcl) StderrLine: {'line': b'\n'}
+[2.508369] (nav2_amcl) StderrLine: {'line': b'\x1b[0m\n'}
+[2.508392] (nav2_amcl) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:120 (add_executable):\n'}
+[2.508414] (nav2_amcl) StderrLine: {'line': b'  Target "amcl" links to target "nav2_util::nav2_util_core" but the target\n'}
+[2.508437] (nav2_amcl) StderrLine: {'line': b'  was not found.  Perhaps a find_package() call is missing for an IMPORTED\n'}
+[2.508459] (nav2_amcl) StderrLine: {'line': b'  target, or an ALIAS target is missing?\n'}
+[2.508484] (nav2_amcl) StderrLine: {'line': b'\n'}
+[2.508508] (nav2_amcl) StderrLine: {'line': b'\x1b[0m\n'}
+[2.528948] (nav2_amcl) StdoutLine: {'line': b'-- Generating done\n'}
+[2.529127] (nav2_amcl) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[2.536902] (nav2_amcl) CommandEnded: {'returncode': 1}
+[2.555345] (nav2_amcl) JobEnded: {'identifier': 'nav2_amcl', 'rc': 1}
+[2.565939] (-) EventReactorShutdown: {}

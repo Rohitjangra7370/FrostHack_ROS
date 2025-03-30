@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/olympusforge/ros2_frost/build/beluga': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/beluga/beluga -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/beluga
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.144s] -- The CXX compiler identification is GNU 11.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.372s] -- Detecting CXX compile features - done
+[0.373s] -- Setting build type to 'Release' as none was specified.
+[0.929s] -- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: CXX 
+[0.936s] [31mCMake Error at CMakeLists.txt:47 (find_package):
+[0.936s]   By not providing "Findrange-v3.cmake" in CMAKE_MODULE_PATH this project has
+[0.936s]   asked CMake to find a package configuration file provided by "range-v3",
+[0.936s]   but CMake did not find one.
+[0.936s] 
+[0.936s]   Could not find a package configuration file provided by "range-v3" with any
+[0.936s]   of the following names:
+[0.936s] 
+[0.936s]     range-v3Config.cmake
+[0.936s]     range-v3-config.cmake
+[0.936s] 
+[0.936s]   Add the installation prefix of "range-v3" to CMAKE_PREFIX_PATH or set
+[0.936s]   "range-v3_DIR" to a directory containing one of the above files.  If
+[0.936s]   "range-v3" provides a separate development package or SDK, be sure it has
+[0.936s]   been installed.
+[0.937s] 
+[0.937s] [0m
+[0.937s] -- Configuring incomplete, errors occurred!
+[0.937s] See also "/home/olympusforge/ros2_frost/build/beluga/CMakeFiles/CMakeOutput.log".
+[0.942s] Invoked command in '/home/olympusforge/ros2_frost/build/beluga' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/beluga/beluga -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/beluga

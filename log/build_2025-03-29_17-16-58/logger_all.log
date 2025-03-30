@@ -1,0 +1,477 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'beluga']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['beluga'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75ece9a6ac50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75ece9b5bbe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75ece9b5bbe0>>, mixin_verb=('build',))
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.170s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/olympusforge/ros2_frost'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga' with type 'ros.cmake' and name 'beluga'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_amcl) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_amcl' with type 'ros.ament_cmake' and name 'beluga_amcl'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_benchmark) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_benchmark' with type 'ros.ament_cmake' and name 'beluga_benchmark'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extension 'colcon_pkg'
+[0.198s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'beluga_example' of package 'src/beluga/beluga_example' from colcon.pkg
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_example' with type 'None' and name 'beluga_example'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_example) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_example' with type 'ros.ament_cmake' and name 'beluga_example'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_ros) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_ros' with type 'ros.ament_cmake' and name 'beluga_ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_system_tests) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_system_tests' with type 'ros.cmake' and name 'beluga_system_tests'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tools) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_tools' with type 'ros.ament_python' and name 'beluga_tools'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_tutorial) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_tutorial' with type 'ros.cmake' and name 'beluga_tutorial'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/beluga_vdb) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/beluga/beluga_vdb' with type 'ros.cmake' and name 'beluga_vdb'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/files) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/humble) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/jazzy) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/noetic) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docker/images/rolling) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docs) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/docs) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/beluga/tools) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/YDLidar-SDK) by extension 'python'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/maps) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_bringup) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_bringup' with type 'ros.ament_cmake' and name 'tortoisebot_bringup'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_control) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_control' with type 'ros.ament_python' and name 'tortoisebot_control'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_description) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_description' with type 'ros.ament_cmake' and name 'tortoisebot_description'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_firmware) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_firmware' with type 'ros.ament_cmake' and name 'tortoisebot_firmware'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_gazebo) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_gazebo' with type 'ros.ament_cmake' and name 'tortoisebot_gazebo'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_navigation) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_navigation' with type 'ros.ament_cmake' and name 'tortoisebot_navigation'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/tortoisebot_slam) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/tortoisebot_slam' with type 'ros.ament_cmake' and name 'tortoisebot_slam'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/v4l2_camera) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tortoisebot/ydlidar_ros2_driver) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tortoisebot/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.247s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/beluga/beluga_example' from colcon.pkg: {'name': 'beluga_example', 'dependencies': ['flatland_server', 'flatland_plugins']}
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'beluga_tools' in 'src/beluga/beluga_tools'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_bringup' in 'src/tortoisebot/tortoisebot_bringup'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_control' in 'src/tortoisebot/tortoisebot_control'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_description' in 'src/tortoisebot/tortoisebot_description'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_firmware' in 'src/tortoisebot/tortoisebot_firmware'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_gazebo' in 'src/tortoisebot/tortoisebot_gazebo'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_navigation' in 'src/tortoisebot/tortoisebot_navigation'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tortoisebot_slam' in 'src/tortoisebot/tortoisebot_slam'
+[0.249s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'v4l2_camera' in 'src/tortoisebot/v4l2_camera'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_ros2_driver' in 'src/tortoisebot/ydlidar_ros2_driver'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_sdk' in 'src/tortoisebot/YDLidar-SDK'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'beluga_ros' in 'src/beluga/beluga_ros'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'beluga_tutorial' in 'src/beluga/beluga_tutorial'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'beluga_vdb' in 'src/beluga/beluga_vdb'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'beluga_amcl' in 'src/beluga/beluga_amcl'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'beluga_system_tests' in 'src/beluga/beluga_system_tests'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'beluga_example' in 'src/beluga/beluga_example'
+[0.250s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'beluga_benchmark' in 'src/beluga/beluga_benchmark'
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/olympusforge/ros2_frost/install
+[0.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'beluga' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'beluga' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olympusforge/ros2_frost/build/beluga', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olympusforge/ros2_frost/install/beluga', 'merge_install': False, 'path': '/home/olympusforge/ros2_frost/src/beluga/beluga', 'symlink_install': False, 'test_result_base': None}
+[0.278s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.280s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/olympusforge/ros2_frost/src/beluga/beluga' with build type 'cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olympusforge/ros2_frost/src/beluga/beluga'
+[0.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olympusforge/ros2_frost/build/beluga': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/beluga/beluga -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/beluga
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olympusforge/ros2_frost/build/beluga' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olympusforge/ros2_frost/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/olympusforge/ros2_frost/src/beluga/beluga -DCMAKE_INSTALL_PREFIX=/home/olympusforge/ros2_frost/install/beluga
+[1.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(beluga)
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/ros2_frost/install/beluga' for CMake module files
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/ros2_frost/install/beluga' for CMake config files
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/ros2_frost/install/beluga/bin'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/ros2_frost/install/beluga/lib/pkgconfig/beluga.pc'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/ros2_frost/install/beluga/lib/python3.10/site-packages'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/olympusforge/ros2_frost/install/beluga/bin'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/ros2_frost/install/beluga/share/beluga/package.ps1'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olympusforge/ros2_frost/install/beluga/share/beluga/package.dsv'
+[1.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/ros2_frost/install/beluga/share/beluga/package.sh'
+[1.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/ros2_frost/install/beluga/share/beluga/package.bash'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/olympusforge/ros2_frost/install/beluga/share/beluga/package.zsh'
+[1.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olympusforge/ros2_frost/install/beluga/share/colcon-core/packages/beluga)
+[1.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.265s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.269s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.280s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olympusforge/ros2_frost/install/local_setup.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olympusforge/ros2_frost/install/_local_setup_util_ps1.py'
+[1.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olympusforge/ros2_frost/install/setup.ps1'
+[1.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olympusforge/ros2_frost/install/local_setup.sh'
+[1.308s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olympusforge/ros2_frost/install/_local_setup_util_sh.py'
+[1.313s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olympusforge/ros2_frost/install/setup.sh'
+[1.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olympusforge/ros2_frost/install/local_setup.bash'
+[1.321s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olympusforge/ros2_frost/install/setup.bash'
+[1.326s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olympusforge/ros2_frost/install/local_setup.zsh'
+[1.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olympusforge/ros2_frost/install/setup.zsh'
